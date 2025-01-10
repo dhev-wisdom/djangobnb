@@ -32,7 +32,7 @@ const MyReservationsPage = () => {
                         </div>
                     </div>
 
-                    <div className="p-5 rounded-xl grid grid-cols-4 shadow-md gap-4 border border-gray-300">
+                    <div className="p-5 rounded-xl grid grid-cols-1 md:grid-cols-4 shadow-md gap-4 border border-gray-300">
                         <div className="col-span-1">
                             <div className="relative overflow-hidden aspect-square rounded-xl">
                                 <Image 
@@ -55,7 +55,7 @@ const MyReservationsPage = () => {
                         </div>
                     </div>
 
-                    <div className="p-5 rounded-xl grid grid-cols-4 shadow-md gap-4 border border-gray-300">
+                    <div className="p-5 rounded-xl grid grid-cols-1 md:grid-cols-4 shadow-md gap-4 border border-gray-300">
                         <div className="col-span-1">
                             <div className="relative overflow-hidden aspect-square rounded-xl">
                                 <Image 
