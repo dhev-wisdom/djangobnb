@@ -2,11 +2,11 @@ import ContactButton from "@/app/components/ContactButton";
 import PropertyList from "@/app/components/properties/PropertyList";
 import Image from "next/image";
 
-const MyReservationsPage = () => {
+const MyPropertiesPage = () => {
     return (
         <main className="max-w-1500pxl mx-auto px-6 pb-6">
             <div className="pt-6 pb-2 ">
-                <h1 className="my-6 text-2xl">My Reservations Page</h1>
+                <h1 className="my-6 text-2xl">My MyPropertiesPage Page</h1>
 
                 <div className="space-y-4">
                     <div className="p-5 rounded-xl grid grid-cols-1 md:grid-cols-4 shadow-md gap-4 border border-gray-300">
@@ -95,4 +95,4 @@ const MyReservationsPage = () => {
     );
 }
 
-export default MyReservationsPage;
+export default MyPropertiesPage;

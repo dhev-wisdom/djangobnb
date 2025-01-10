@@ -6,7 +6,7 @@ export default function Home() {
     <main className="max-w-1500pxl mx-auto px-6">
       <Categories />
 
-      <div className="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+      <div className="mt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 transition">
         <PropertyList />
       </div>
     </main>
